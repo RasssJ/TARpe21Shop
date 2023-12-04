@@ -1,0 +1,46 @@
+﻿@model IEnumerable<TARpe21ShopVaitmaa.Models.Car.CarIndexViewModel>
+@{
+    int rowNumber = 1;
+}
+
+<div class="h1">Cars</div>
+<div>
+    <a asp-action="Create" asp-controller="Car" type="submit" class="btn btn-primary">Create</a>
+</div>
+<form method="post">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Manufacturer</th>
+                <th>Manufacturing Date</th>
+                <th>Price (€)</th>
+                <th>Gearbox (Manual / Automatic)</th>
+                <th>Top Speed (KM/H)</th>
+                <th>Weight (KG)</th>
+                <th>Body Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var car in Model)
+            {
+                <tr>
+                    <td>@rowNumber</td>
+                    <td>@car.Manufacturer</td>
+                    <td>@car.Year</td>
+                    <td>@car.PriceOfVehicle</td>
+                    <td>@car.Transmission</td>
+                    <td>@car.MaxKMH</td>
+                    <td>@car.Weight</td>
+                    <td>@car.BodyType</td>
+                    <td>
+                        <a asp-action="details" asp-controller="Car" asp-route-id="@car.Id" class="btn btn-info">Details</a>
+                        <a asp-action="update" asp-controller="Car" asp-route-id="@car.Id" class="btn btn-primary">Edit</a>
+                        <a asp-action="delete" asp-controller="Car" asp-route-id="@car.Id" type="submit" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+                rowNumber++;
+            }
+        </tbody>
+    </table>
+</form>
