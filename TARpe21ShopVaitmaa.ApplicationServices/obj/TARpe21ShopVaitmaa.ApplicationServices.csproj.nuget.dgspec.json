@@ -67,7 +67,7 @@
               "target": "Package",
               "version": "[6.0.22, )"
             },
-            "Microsoft.Extensions.Hosting.Abstractions": {
+            "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[6.0.0, )"
             },
@@ -150,6 +150,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.22, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -236,6 +240,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.22, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [

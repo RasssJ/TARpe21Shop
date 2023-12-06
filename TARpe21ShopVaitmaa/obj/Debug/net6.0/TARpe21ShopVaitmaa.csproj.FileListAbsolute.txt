@@ -235,6 +235,7 @@ C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\TA
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\TARpe21ShopVaitmaa.pdb
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Humanizer.dll
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
@@ -242,6 +243,8 @@ C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Mi
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -249,6 +252,8 @@ C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Mi
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Nancy.dll
+C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\System.Drawing.Common.dll
@@ -299,8 +304,3 @@ C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\obj\Debug\net6.0\re
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\obj\Debug\net6.0\TARpe21ShopVaitmaa.pdb
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\obj\Debug\net6.0\TARpe21ShopVaitmaa.genruntimeconfig.cache
 C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\obj\Debug\net6.0\ref\TARpe21ShopVaitmaa.dll
-C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
-C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Nancy.dll
-C:\Users\opilane\source\repos\TARpe21Shop\TARpe21ShopVaitmaa\bin\Debug\net6.0\Newtonsoft.Json.dll
