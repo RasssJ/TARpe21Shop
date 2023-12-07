@@ -15,7 +15,7 @@ using TARpe21ShopVaitmaa.SpaceshipTest.Mock;
 using TARpe21ShopVaitmaa.Core.ServiceInterface;
 using TARpe21ShopVaitmaa.Data;
 
-namespace TARpe21ShipVaitmaa.SpaceshipTest
+namespace TARpe21ShopVaitmaa.SpaceshipTest
 {
     public abstract class TestBase
     {
@@ -39,7 +39,7 @@ namespace TARpe21ShipVaitmaa.SpaceshipTest
         public virtual void SetupServices(IServiceCollection services)
         {
             services.AddScoped<ISpaceshipsServices, SpaceshipsServices>();
-            services.AddScoped<FilesServices, FilesServices>();
+            services.AddScoped<IFilesServices, FilesServices>();
             services.AddScoped<IHostingEnvironment, MockIHostEnvironment>();
 
             services.AddDbContext<TARpe21ShopVaitmaaContext>

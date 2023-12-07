@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 using TARpe21ShopVaitmaa.Core.Domain;
 using TARpe21ShopVaitmaa.Core.Dto;
 using TARpe21ShopVaitmaa.Core.ServiceInterface;
+using TARpe21ShopVaitmaa.Data.Migrations;
 using TARpe21ShopVaitmaa.ApplicationServices.Services;
 using Xunit;
 
-namespace TARpe21ShipVaitmaa.SpaceshipTest
+namespace TARpe21ShopVaitmaa.SpaceshipTest
 {
     public class SpaceshipTest : TestBase
     {

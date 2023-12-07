@@ -5,7 +5,6 @@ using TARpe21ShopVaitmaa.Core.Dto;
 using TARpe21ShopVaitmaa.Data;
 using TARpe21ShopVaitmaa.ApplicationServices.Services;
 
-
 namespace TARpe21ShopVaitmaa.ApplicationServices.Services
 {
     
@@ -22,7 +21,6 @@ namespace TARpe21ShopVaitmaa.ApplicationServices.Services
             _context = context;
             _webHost = webHost;
         }
-
         public void UploadFilesToDatabase(SpaceshipDto dto, Spaceship domain)
         {
             if (dto.Files != null && dto.Files.Count > 0)
@@ -65,7 +63,6 @@ namespace TARpe21ShopVaitmaa.ApplicationServices.Services
             }
             return null;
         }
-
         public void FilesToApi(RealEstateDto dto, RealEstate realEstate)
         {
             string uniqueFileName = null;
@@ -123,7 +120,6 @@ namespace TARpe21ShopVaitmaa.ApplicationServices.Services
             await _context.SaveChangesAsync();
             return null;
         }
-
         public void FilesToApi(CarDto dto, Car car)
         {
             string uniqueFileName = null;
@@ -152,7 +148,6 @@ namespace TARpe21ShopVaitmaa.ApplicationServices.Services
                 }
             }
         }
-
         public Task<List<FileToApi>> RemoveImagesFromDatabase(FileToDatabaseDto[] dtos)
         {
             throw new NotImplementedException();
